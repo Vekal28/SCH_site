@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-image: url("../img/ch3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner{
+    backdrop-filter: blur(15px);
+    background-color: rgba(82, 110, 112, 0.055);
+    height: 1000px;
+    width: 100%;
+}
+.header {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+}
+
+.logo-text{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Calibri';
+    font-size: 40px;
+    font-weight: 100;
+    width: 90%;
+}
